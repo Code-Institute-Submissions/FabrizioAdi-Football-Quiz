@@ -14,8 +14,18 @@ def run_game():
         for i in answers[question_number-1]:
             print(i)
         choice = input("Choose the correct answer(a, b, c or d):")
+        choices.append(choice)
+
+        check_answer(questions get(key),choice)
 
         question_number += 1
+
+
+def check_answer(answer, choice):
+
+    if answer == choice:
+        print("CORRECT ANSWER! WELL DONE!")
+        return 1
 
 # Question section
 
