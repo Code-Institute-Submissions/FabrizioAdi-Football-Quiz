@@ -26,6 +26,9 @@ def check_answer(answer, choice):
     if answer == choice:
         print("CORRECT ANSWER! WELL DONE!")
         return 1
+    else:
+        print("WRONG ANSWER!!!")
+        return 0
 
 # Question section
 
