@@ -13,9 +13,11 @@ def run_game():
         print(key)
         for i in answers[question_number-1]:
             print(i)
+        choice = input("Choose the correct answer(a, b, c or d):")
 
         question_number += 1
 
+# Question section
 
 questions = {
     "Who is the winner of Premier League (England) 2020/21?":"a",
@@ -28,6 +30,7 @@ questions = {
     "Which international club does Robert Lewandowski play for?":"a",
 
 }
+# Answers sections with choices
 answers = [["a. Manchester City", "b. Manchester United", "c. Chelsea London", "d. Leicester City"],
 ["a. Italy", "b. Uruguay", "c. Argentina", "d. USA"],
 ["a. Robert Lewandowski (Pol)", "b. Gerd Muller (Ger)", "c. Cristiano Ronaldo (Por)", "d. Thomas Muller (Ger)"],
