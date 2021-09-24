@@ -2,14 +2,17 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
-# ********************
+
 def run_game():
     choices = []
     correct_choices = 0
     question_number = 1
     
     for key in questions:
+        print("********************QUESTION********************")
         print(key)
+        for i in answers[question_number-1]:
+            print(i)
 
 
 questions = {
