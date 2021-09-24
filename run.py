@@ -17,7 +17,7 @@ def run_game():
         choice = input("Choose the correct answer(a, b, c or d):")
         choices.append(choice)
 
-        correct_choices += check_answer(questions get(key),choice)
+        correct_choices += check_answer(questions.get(key), choice)
 
         question_number += 1
 
