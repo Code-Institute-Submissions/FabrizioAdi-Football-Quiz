@@ -2,6 +2,7 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
+# Run new game function
 
 def run_game():
     choices = []
@@ -9,17 +10,18 @@ def run_game():
     question_number = 1
     
     for key in questions:
-        print("********************QUESTION********************")
+        print("********************--QUESTION--********************")
         print(key)
         for i in answers[question_number-1]:
             print(i)
         choice = input("Choose the correct answer(a, b, c or d):")
         choices.append(choice)
 
-        check_answer(questions get(key),choice)
+        correct_choices += check_answer(questions get(key),choice)
 
         question_number += 1
 
+# Checking answer function
 
 def check_answer(answer, choice):
 
@@ -44,6 +46,7 @@ questions = {
 
 }
 # Answers sections with choices
+
 answers = [["a. Manchester City", "b. Manchester United", "c. Chelsea London", "d. Leicester City"],
 ["a. Italy", "b. Uruguay", "c. Argentina", "d. USA"],
 ["a. Robert Lewandowski (Pol)", "b. Gerd Muller (Ger)", "c. Cristiano Ronaldo (Por)", "d. Thomas Muller (Ger)"],
@@ -53,7 +56,6 @@ answers = [["a. Manchester City", "b. Manchester United", "c. Chelsea London", "
 ["a. Three times", "b. Four times", "c. Six times", "d. Five times"],
 ["a. Poland", "b. Russia", "c. Italy", "d. France"]]
 
-# ********************
-# ********************
+
 
 run_game()
