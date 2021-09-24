@@ -3,6 +3,15 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
 # ********************
+def run_game():
+    choices = []
+    correct_choices = 0
+    question_number = 1
+    
+    for key in questions:
+        print(key)
+
+
 questions = {
     "Who is the winner of Premier League (England) 2020/21?":"a",
     "What football country does lionel messi represent?":"c",
@@ -15,3 +24,5 @@ answers = [["a. Manchester City", "b. Manchester United", "c. Chelsea London", "
 
 # ********************
 # ********************
+
+run_game()
