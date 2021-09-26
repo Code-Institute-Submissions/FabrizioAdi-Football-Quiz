@@ -96,5 +96,6 @@ answers = [["a. Manchester City", "b. Manchester United", "c. Chelsea London", "
 ["a. Poland", "b. Russia", "c. Italy", "d. France"]]
 
 
-
 run_game()
+
+
