@@ -21,16 +21,36 @@ def run_game():
 
         question_number += 1
 
+    show_score(correct_choices, choices)
+
 # Checking answer function
 
 def check_answer(answer, choice):
 
     if answer == choice:
-        print("CORRECT ANSWER! WELL DONE!")
+        print("CORRECT ANSWER!!! WELL DONE!!!")
         return 1
     else:
         print("WRONG ANSWER!!!")
         return 0
+
+
+def show_score(correct_choices, choices):
+    print("********************")
+    print("This is your answers ;)")
+    print("********************")
+    
+    print("Answers: ", end="")
+    for i in questions:
+        print(questions.get(i), end=" ")
+        print()
+
+    print("Choices: ", end="")
+    for i in choices:
+        print(i, end=" ")
+        print()
+
+
 
 # Question section
 
