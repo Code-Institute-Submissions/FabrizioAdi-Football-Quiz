@@ -34,12 +34,13 @@ def check_answer(answer, choice):
         print("WRONG ANSWER!!!")
         return 0
 
+# Function display correct answer and compare with player choices
 
 def show_score(correct_choices, choices):
-    print("********************")
+    print("*************************")
     print("This is your answers ;)")
-    print("********************")
-    
+    print("*************************")
+
     print("Answers: ", end="")
     for i in questions:
         print(questions.get(i), end=" ")
@@ -49,6 +50,14 @@ def show_score(correct_choices, choices):
     for i in choices:
         print(i, end=" ")
         print()
+
+    print("This is the End of the game.")
+    print("The total number of correct answers is: " + str(correct_choices))
+
+    score = int((correct_choices/len(questions))*100)
+    print("Your results is: "+str(score)+"%")
+
+    print("!!!Thank you for the game!!!")
 
 
 
