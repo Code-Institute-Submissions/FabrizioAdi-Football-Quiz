@@ -59,14 +59,19 @@ def show_score(correct_choices, choices):
 
     print("!!!Thank you for the game!!!")
 
+# Random questions
+
+def random_question():
+    
+
 # Start again function
 
 def start_again():
 
-    response = input("Do you want start again? (yes or no):")
+    response = input("Do you want to start again? (yes or no):")
     response = response.upper()
 
-    if response == "YES":
+    if response == "yes":
         return True
     else:
         return False
@@ -98,4 +103,7 @@ answers = [["a. Manchester City", "b. Manchester United", "c. Chelsea London", "
 
 run_game()
 
+while start_again():
+    run_game()
 
+print("See you next time! Byeeee!!!")
