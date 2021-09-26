@@ -59,9 +59,19 @@ def show_score(correct_choices, choices):
 
     print("!!!Thank you for the game!!!")
 
+# Start again function
 
+def start_again():
 
-# Question section
+    response = input("Do you want start again? (yes or no):")
+    response = response.upper()
+
+    if response == "YES":
+        return True
+    else:
+        return False
+
+# Question dictionary section
 
 questions = {
     "Who is the winner of Premier League (England) 2020/21?":"a",
@@ -74,7 +84,7 @@ questions = {
     "Which international club does Robert Lewandowski play for?":"a",
 
 }
-# Answers sections with choices
+# Answers list sections with choices
 
 answers = [["a. Manchester City", "b. Manchester United", "c. Chelsea London", "d. Leicester City"],
 ["a. Italy", "b. Uruguay", "c. Argentina", "d. USA"],
