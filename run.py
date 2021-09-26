@@ -4,6 +4,9 @@
 
 # Run new game function
 
+name = input("Enter your name:")
+print("Welcome to the Football Quiz!")
+
 def run_game():
     choices = []
     correct_choices = 0
@@ -61,8 +64,7 @@ def show_score(correct_choices, choices):
 
 # Random questions
 
-def random_question():
-    
+
 
 # Start again function
 
