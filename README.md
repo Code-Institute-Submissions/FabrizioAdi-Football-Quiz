@@ -16,6 +16,13 @@ A simple quiz for football lovers as well as for people who want to test their k
 * Author Info
 
 #### How to play
+Check what you know about football.
+In this version of the quiz, at the beginning the program asks for a name. After entering the name and press enter button the welcome message "Welcome to the Football Quiz!" Is displayed. Which allows to start the game.
+In the next step, the first question is displayed with four possible answers.
+The player chooses one possible answer from a, b, c, d - options to advance and display the next question.
+For one correct answer the player gets one point.
+After all the questions have been answered, a message is displayed comparing the correct answers with the answers given by the player.
+The player will also get the percentage of answers given and the number of points he has scored.
 
 #### Features
 
