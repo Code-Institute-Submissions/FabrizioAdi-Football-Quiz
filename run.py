@@ -11,7 +11,7 @@ def run_game():
     choices = []
     correct_choices = 0
     question_number = 1
-    
+     
     for key in questions:
         print("********************--QUESTION--********************")
         print(key)
@@ -64,8 +64,6 @@ def show_score(correct_choices, choices):
 
 # Random questions
 
-
-
 # Start again function
 
 def start_again():
@@ -81,21 +79,21 @@ def start_again():
 # Question dictionary section
 
 questions = {
-    "Who is the winner of Premier League (England) 2020/21?":"a",
-    "Which international club does Lionel Messi play for?":"c",
-    "Who broke Gerd Müller's record for the most goals scored in a single Bundesliga season?":"a",
-    "What international team play in Wembley?":"a",
-    "Which of these teams is from Turin?":"d",
-    "How long is a game of professional football?":"b",
-    "How many times have Brazil won the World Cup?":"d",
-    "Which international club does Robert Lewandowski play for?":"a",
+    "Who is the winner of Premier League (England) 2020/21?": "a",
+    "Which international club does Lionel Messi play for?": "c",
+    "Who broke Gerd Müller's record for the most goals scored in season?": "a",
+    "What international team play in Wembley?": "a",
+    "Which of these teams is from Turin?": "d",
+    "How long is a game of professional football?": "b",
+    "How many times have Brazil won the World Cup?": "d",
+    "Which international club does Robert Lewandowski play for?": "a",
 
 }
 # Answers list sections with choices
 
 answers = [["a. Manchester City", "b. Manchester United", "c. Chelsea London", "d. Leicester City"],
 ["a. Italy", "b. Uruguay", "c. Argentina", "d. USA"],
-["a. Robert Lewandowski (Pol)", "b. Gerd Muller (Ger)", "c. Cristiano Ronaldo (Por)", "d. Thomas Muller (Ger)"],
+["a. Robert Lewandowski", "b. Gerd Muller", "c. Cristiano Ronaldo", "d. Thomas Muller"],
 ["a. England", "b. Denmark", "c. Sweden", "d. Scotland"],
 ["a. AC Milan", "b. SSC Napoli", "c. Atletico", "d. Juventus"],
 ["a. 60 minutes", "b. 90 minutes", "c. 75 minutes", "d. 45 minutes"],
