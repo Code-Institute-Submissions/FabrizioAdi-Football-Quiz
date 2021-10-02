@@ -16,17 +16,29 @@ A simple quiz for football lovers as well as for people who want to test their k
 * Author Info
 
 #### How to play
+
 #### Features
+
 #### The Game Options
+
 #### The Game Results
+
 #### Features left to implement
+
 #### Testing
+
 #### Validator Testing
+
 #### Technologies
+
 #### Deployment
+
 #### Step to Using Github Pages
+
 #### Credits/Reference
+
 #### Author Info
+FabrizioAdi
 
 
 Reference links

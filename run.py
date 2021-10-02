@@ -7,11 +7,12 @@
 name = input("Enter your name:")
 print("Welcome to the Football Quiz!")
 
+
 def run_game():
     choices = []
     correct_choices = 0
     question_number = 1
-     
+
     for key in questions:
         print("********************--QUESTION--********************")
         print(key)
@@ -28,6 +29,7 @@ def run_game():
 
 # Checking answer function
 
+
 def check_answer(answer, choice):
 
     if answer == choice:
@@ -38,6 +40,7 @@ def check_answer(answer, choice):
         return 0
 
 # Function display correct answer and compare with player choices
+
 
 def show_score(correct_choices, choices):
     print("*************************")
@@ -66,6 +69,7 @@ def show_score(correct_choices, choices):
 
 # Start again function
 
+
 def start_again():
 
     response = input("Do you want to start again? (yes or no):")
@@ -77,6 +81,7 @@ def start_again():
         return False
 
 # Question dictionary section
+
 
 questions = {
     "Who is the winner of Premier League (England) 2020/21?": "a",
@@ -91,14 +96,15 @@ questions = {
 }
 # Answers list sections with choices
 
-answers = [["a. Manchester City", "b. Manchester United", "c. Chelsea London", "d. Leicester City"],
-["a. Italy", "b. Uruguay", "c. Argentina", "d. USA"],
-["a. Robert Lewandowski", "b. Gerd Muller", "c. Cristiano Ronaldo", "d. Thomas Muller"],
-["a. England", "b. Denmark", "c. Sweden", "d. Scotland"],
-["a. AC Milan", "b. SSC Napoli", "c. Atletico", "d. Juventus"],
-["a. 60 minutes", "b. 90 minutes", "c. 75 minutes", "d. 45 minutes"],
-["a. Three times", "b. Four times", "c. Six times", "d. Five times"],
-["a. Poland", "b. Russia", "c. Italy", "d. France"]]
+answers = [
+    ["a. Man City", "b. Man Utd", "c. Chelsea", "d. Leicester City"],
+    ["a. Italy", "b. Uruguay", "c. Argentina", "d. USA"],
+    ["a. R.Lewandowski", "b. G.Muller", "c. C.Ronaldo", "d. T.Muller"],
+    ["a. England", "b. Denmark", "c. Sweden", "d. Scotland"],
+    ["a. AC Milan", "b. SSC Napoli", "c. Atletico", "d. Juventus"],
+    ["a. 60 minutes", "b. 90 minutes", "c. 75 minutes", "d. 45 minutes"],
+    ["a. Three times", "b. Four times", "c. Six times", "d. Five times"],
+    ["a. Poland", "b. Russia", "c. Italy", "d. France"]]
 
 
 run_game()
