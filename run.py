@@ -72,10 +72,10 @@ def show_score(correct_choices, choices):
 
 def start_again():
 
-    response = input("Do you want to start again? (yes or no):")
+    response = input("Do you want to start again? (yes or no): ")
     response = response.upper()
 
-    if response == "yes":
+    if response == "YES":
         return True
     else:
         return False
