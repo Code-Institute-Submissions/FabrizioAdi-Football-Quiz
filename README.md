@@ -85,9 +85,13 @@ Most of my python code comes from the following YouTube tutorials explaining and
 Of course, I tried to create my unique code completely different from the YouTube tutorials, but it's not that simple. In part, I was able to write somewhat different code.
 
 [Python 5 project in 2 hr.](https://www.youtube.com/watch?v=EFaPsPwPJAY&t=3216s)
+
 [Python quiz game](https://www.youtube.com/watch?v=yriw5Zh406s)
+
 [Making a Quiz Game](https://www.youtube.com/watch?v=cwJBEZjQJtc&t=736s)
+
 [Building a Multiple Choice Quiz](https://www.youtube.com/watch?v=SgQhwtIoQ7o&t=344s)
+
 [How to Make A Simple Game in Python](https://www.youtube.com/watch?v=BDi3SD7E6no)
 
 
