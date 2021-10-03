@@ -92,6 +92,10 @@ questions = {
     "How long is a game of professional football?": "b",
     "How many times have Brazil won the World Cup?": "d",
     "Which international club does Robert Lewandowski play for?": "a",
+    "This player is the top scorer of the Champions League.": "d",
+    "This club has won the most Champions League titles?": "c",
+    "When was the first European Championship held?": "b",
+    "1990 this team failed score even one goal in the World Cup final.": "a",
 
 }
 # Answers list sections with choices
@@ -104,7 +108,11 @@ answers = [
     ["a. AC Milan", "b. SSC Napoli", "c. Atletico", "d. Juventus"],
     ["a. 60 minutes", "b. 90 minutes", "c. 75 minutes", "d. 45 minutes"],
     ["a. Three times", "b. Four times", "c. Six times", "d. Five times"],
-    ["a. Poland", "b. Russia", "c. Italy", "d. France"]]
+    ["a. Poland", "b. Russia", "c. Italy", "d. France"],
+    ["a. L.Messi", "b. K.Benzema", "c. Raul", "d.Ronaldo"],
+    ["a. Juventus", "b. FC Barcelona", "c. Real Madrid", "d. AC Milan"],
+    ["a. 1950", "b. 1960", "c. 1980", "d. 1964"],
+    ["a. Argentina", "b. Brazil", "c. France", "d. Croatia"]]
 
 
 run_game()

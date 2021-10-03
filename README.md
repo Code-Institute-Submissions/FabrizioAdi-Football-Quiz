@@ -1,5 +1,5 @@
 # FOOTBALL-Quizzzzz...!!!
-A simple quiz for football lovers as well as for people who want to test their knowledge in this sport discipline. This quiz will allow people to have fun with different questions about their favorite sport. The main purpose of the quiz is to have fun.
+A simple quiz for football lovers as well as for people who want to test their knowledge in this sport discipline. This quiz will allow people to have fun with different questions about their favorite sport.
 
 ## Table of Contens
 * How to play
