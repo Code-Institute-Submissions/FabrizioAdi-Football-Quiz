@@ -4,6 +4,8 @@ A simple quiz for football lovers as well as for people who want to test their k
 
 ![](images/image2.png)
 
+[Hello good people! I am the link to the application ;)](https://adfootball-quizz.herokuapp.com/)
+
 ## Table of Contens
 * How to play / Features
 * Features left to implement
@@ -65,17 +67,30 @@ No errors were returned.
 
 #### Deployment
 
-
-
-#### Step to Using Github Pages
+Steps for deployment
+* Fork or clone this repository
+* Create a new Heroku app
+* Set the builpacks to - Python and - NodeJS in that order
+* Link the Heroku app to the repository
+* Click on deploy
 
 #### Credits/Reference
+
+Most of my python code comes from the following YouTube tutorials explaining and showing how to create quizzes from begining.
+Of course, I tried to create my unique code completely different from the YouTube tutorials, but it's not that simple. In part, I was able to write somewhat different code.
+
+[Python 5 project in 2 hr.](https://www.youtube.com/watch?v=EFaPsPwPJAY&t=3216s)
+[Python quiz game](https://www.youtube.com/watch?v=yriw5Zh406s)
+[Making a Quiz Game](https://www.youtube.com/watch?v=cwJBEZjQJtc&t=736s)
+[Building a Multiple Choice Quiz](https://www.youtube.com/watch?v=SgQhwtIoQ7o&t=344s)
+[How to Make A Simple Game in Python](https://www.youtube.com/watch?v=BDi3SD7E6no)
+
+
+Acknowledgements Also thank you to the Code Institute slack channel, tutor Kasia and mentor Precious Ijege.
+
 
 #### Author Info
 FabrizioAdi
 
 
-Reference links
-https://www.youtube.com/watch?v=yriw5Zh406s
-https://www.youtube.com/watch?v=EFaPsPwPJAY&t=3216s
-https://www.youtube.com/watch?v=cwJBEZjQJtc&t=736s
+
