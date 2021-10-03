@@ -26,6 +26,8 @@ The player will also get the percentage of answers given and the number of point
 
 #### Features
 
+![](images/image1.png)
+
 #### The Game Options
 
 #### The Game Results
