@@ -7,14 +7,19 @@ A simple quiz for football lovers as well as for people who want to test their k
 [Hello good people! I am the link to the application ;)](https://adfootball-quizz.herokuapp.com/)
 
 ## Table of Contens
-* How to play / Features
-* Features left to implement
-* Testing
-* Validator Testing
-* Technologies
-* Deployment
-* Credits/Reference
-* Author Info
+- [FOOTBALL-Quizzzzz...!!!](#football-quizzzzz---)
+  * [Table of Contens](#table-of-contens)
+      - [How to play / Features](#how-to-play---features)
+      - [Features left to implement](#features-left-to-implement)
+      - [Testing](#testing)
+      - [Validator Testing](#validator-testing)
+      - [Technologies](#technologies)
+      - [Deployment](#deployment)
+      - [Credits/Reference](#credits-reference)
+      - [Author Info](#author-info)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 #### How to play / Features
 
