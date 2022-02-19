@@ -2,8 +2,6 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
-# Run new game function
-
 while True:
     name = input("Please enter your name: ")
     if name.isnumeric():
@@ -14,7 +12,6 @@ while True:
         continue
     else:
         break
-
 
 while True:
     try:
@@ -36,6 +33,7 @@ if age >= 15:
 else:
     print("You are not able to play")
 
+# Run new game function
 
 def run_game():
     choices = []
@@ -47,7 +45,13 @@ def run_game():
         print(key)
         for i in answers[question_number-1]:
             print(i)
-        choice = input("Choose the correct answer(a, b, c or d):")
+
+        choice = input("Choose the correct answer a, b, c or d?\n")
+        while choice !="a" and choice !="b" and choice !="c" and choice !="d":
+            choice = input('Please type: a, b, c, or d ')
+        
+        print('Your choice:', choice)
+
         choices.append(choice)
 
         correct_choices += check_answer(questions.get(key), choice)
@@ -76,12 +80,12 @@ def show_score(correct_choices, choices):
     print("This is your answers ;)")
     print("*************************")
 
-    print("Answers: ", end="")
+    print("List of Correct Answers: ", end="")
     for i in questions:
         print(questions.get(i), end=" ")
         print()
 
-    print("Choices: ", end="")
+    print("List of Your Choices: ", end="")
     for i in choices:
         print(i, end=" ")
         print()
