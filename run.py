@@ -4,8 +4,10 @@
 
 # Run new game function
 
-name = input("Enter your name:")
-print("Welcome to the Football Quiz!")
+name = input("Enter your name: ")
+age = int(input("How old are you?: "))
+print("Welcome to the Football Quiz! "+ name)
+print("You are: "+str(age)+" years old")
 
 
 def run_game():
