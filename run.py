@@ -4,10 +4,26 @@
 
 # Run new game function
 
-name = input("Enter your name: ")
-age = int(input("How old are you?: "))
+name = input("Please enter your name: ")
+while True:
+    try:
+        age = int(input("How old are you?: "))
+    except ValueError:
+        print('Sorry, I dont understand your answer')
+        continue
+    if age < 0:
+        print('Error, age cannot be negative number')
+        continue
+    else:
+        break
+
 print("Welcome to the Football Quiz! "+ name)
 print("You are: "+str(age)+" years old")
+
+if age >= 15:
+    print("You are able to play")
+else:
+    print("You are not able to play")
 
 
 def run_game():
