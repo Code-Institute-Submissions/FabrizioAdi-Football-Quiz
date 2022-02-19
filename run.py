@@ -4,7 +4,18 @@
 
 # Run new game function
 
-name = input("Please enter your name: ")
+while True:
+    name = input("Please enter your name: ")
+    if name.isnumeric():
+        print('Please try again, You cannot type numbers')
+        continue
+    if not name.isalpha():
+        print('Please try again')
+        continue
+    else:
+        break
+
+
 while True:
     try:
         age = int(input("How old are you?: "))
