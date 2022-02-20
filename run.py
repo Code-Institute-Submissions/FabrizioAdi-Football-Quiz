@@ -2,7 +2,7 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
-while True: 
+while True:
     name = input("Please enter your name: ")
     if name.isnumeric():
         print('Please try again, You cannot type numbers')
@@ -25,10 +25,11 @@ while True:
     else:
         break
 
-print("Welcome to the Football Quiz! "+ name)
+print("Welcome to the Football Quiz! "+name)
 print("You are: "+str(age)+" years old")
 
 # Run new game function
+
 
 def run_game():
     choices = []
@@ -42,9 +43,8 @@ def run_game():
             print(i)
 
         choice = input("Choose the correct answer a, b, c or d?\n")
-        while choice !="a" and choice !="b" and choice !="c" and choice !="d":
+        while choice != "a" and choice != "b" and choice != "c" and choice != "d":
             choice = input('Please type: a, b, c, or d: ')
-        
         print('Your choice:', choice)
 
         choices.append(choice)
