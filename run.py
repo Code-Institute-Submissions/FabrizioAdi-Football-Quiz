@@ -2,6 +2,17 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
+print("**********Welcome to the Football Quizzz!**********")
+print("1. The quiz consists of 12 questions.")
+print("2. Your goal is to answer all the questions.")
+print("3. Choose from four answers the correct one.")
+
+play = input("Do you want to play? yes/no: ")
+if play != "yes":
+    quit()
+
+print("Lets play!")
+
 while True:
     name = input("Please enter your name: ")
     if name.isnumeric():
@@ -101,9 +112,8 @@ def show_score(correct_choices, choices):
 def start_again():
 
     response = input("Do you want to start again? (yes/no): ")
-    response = response.upper()
 
-    if response == "YES":
+    if response == "yes":
         return True
     else:
         return False
