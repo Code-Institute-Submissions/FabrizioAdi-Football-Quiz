@@ -2,13 +2,13 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
-while True:
+while True: 
     name = input("Please enter your name: ")
     if name.isnumeric():
         print('Please try again, You cannot type numbers')
         continue
     if not name.isalpha():
-        print('Please try again')
+        print('Please try again, You did not enter your name.')
         continue
     else:
         break
@@ -28,11 +28,6 @@ while True:
 print("Welcome to the Football Quiz! "+ name)
 print("You are: "+str(age)+" years old")
 
-if age >= 15:
-    print("You are able to play")
-else:
-    print("You are not able to play")
-
 # Run new game function
 
 def run_game():
@@ -48,7 +43,7 @@ def run_game():
 
         choice = input("Choose the correct answer a, b, c or d?\n")
         while choice !="a" and choice !="b" and choice !="c" and choice !="d":
-            choice = input('Please type: a, b, c, or d ')
+            choice = input('Please type: a, b, c, or d: ')
         
         print('Your choice:', choice)
 
@@ -105,7 +100,7 @@ def show_score(correct_choices, choices):
 
 def start_again():
 
-    response = input("Do you want to start again? (yes or no): ")
+    response = input("Do you want to start again? (yes/no): ")
     response = response.upper()
 
     if response == "YES":

@@ -9,9 +9,15 @@ A simple quiz for football lovers as well as for people who want to test their k
 ## Table of Contens
 - [FOOTBALL-Quizzzzz...!!!](#football-quizzzzz---)
   * [Table of Contens](#table-of-contens)
+      - [Project Goals](#project-goals)
+      - [User Goals](#user-goals)
+      - [Site Owner Goals](#site-owner-goals)
+      - [Future Goals](#future-goals)
+      - [User Stories](#user-stories)
       - [How to play / Features](#how-to-play---features)
       - [Features left to implement](#features-left-to-implement)
       - [Testing](#testing)
+      - [Testing User Stories](#testing-user-stories)
       - [Validator Testing](#validator-testing)
       - [Technologies](#technologies)
       - [Deployment](#deployment)
@@ -20,6 +26,53 @@ A simple quiz for football lovers as well as for people who want to test their k
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
+#### Project Goals
+
+The project file contains python scripts (run.py). This app project contains the user section. The quiz consists of 12 questions. Users goal is to answer the questions, choose from four answers the correct one. Also users have a possibility to compare your own answers with the correct answers to see where they make mistake. At the end of the game, after typing YES, users have the option to restart the game and improve their result. Topics of questions – world football. The design of this project is pretty simple so that the user won’t find any difficulties while working on it.
+
+* Creating a variety of questions in the field of football.
+* Creating four answers to each question.
+* Creating the possibility of choosing the answer.
+* Creating the list of objects from data.
+* Possibility to compare your own answers with the correct answers.
+* After answering the question, displaying the next/new question.
+* Possibility to see the result of the correct answers.
+
+#### User Goals
+
+* Allow users to have fun with different questions about their favorite sport.
+* Allow users to see the result of the correct answers.
+* Allow users to compare own answers with the correct answers.
+* Allow users to choose from four answers.
+
+#### Site Owner Goals
+
+* Create an application that is easy and intuitive to navigate and provide feedback to the user.
+* Create an application for fun and for user who want to test their knowledge in this sport discipline.
+
+#### Future Goals
+
+* Add a timer, that user can see how much time they spend on solving the quiz and improve their result. 
+* Add a timer that show a time limit of 5 sec. for an answer.
+* Diffrent Topics of questions like: geography, history, sports, informatics and more. 
+* Add the possibility of skipping the question.
+
+#### User Stories
+
+1. As a user I want to see the next question after an answer.
+2. As a user, I want to be able to see my result, which is the number of correct answers.
+3. As a user I want to be able to choose an answer from four options.
+4. As a user I want to be able start the game again when finished.
+5. As a user I want to be able to compare wrong and correct answers.
+6. As a user I want to be able to see the percentage of my correct answers.
+7. As a user I want to be informed when I pressed the wrong letter.
+8. As a user, I want to receive feedback that my choice was correct or incorrect.
+
+Application Owner
+
+9. As a site owner, I want data entry to be validated, to guide the user on how to correctly type the input.
+10. As a site owner, I want to thank and congratulate for taking the quiz at the end of the game.
+11. As a site owner, I want to navigate and provide feedback to the user.
 
 #### How to play / Features
 
@@ -57,6 +110,22 @@ Check what you know about football.
 * Passed the code through a PEP8 python validator and confirmed there is no problems.
 
 ![](images/image6.png)
+
+#### Testing User Stories
+
+1. As a user I want to see the next question after an answer.
+2. As a user, I want to be able to see my result, which is the number of correct answers.
+3. As a user I want to be able to choose an answer from four options.
+4. As a user I want to be able start the game again when finished.
+5. As a user I want to be able to compare wrong and correct answers.
+6. As a user I want to be able to see the percentage of my correct answers.
+7. As a user I want to be informed when I pressed the wrong letter.
+8. As a user, I want to receive feedback that my choice was correct or incorrect.
+9. As a site owner, I want data entry to be validated, to guide the user on how to correctly type the input.
+10. As a site owner, I want to thank and congratulate for taking the quiz at the end of the game.
+11. As a site owner, I want to navigate and provide feedback to the user.
+
+
 
 #### Validator Testing
 
