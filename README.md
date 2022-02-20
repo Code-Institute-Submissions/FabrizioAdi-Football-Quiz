@@ -114,18 +114,88 @@ Check what you know about football.
 #### Testing User Stories
 
 1. As a user I want to see the next question after an answer.
+
+After giving the correct or incorrect answer, the program displays the next question as shown in the photo below
+
+![](images/image9.png)
+
 2. As a user, I want to be able to see my result, which is the number of correct answers.
+
+The program informs about the end of the game. Below, there is a display of the number of correct answers, and what percentage are the given correct answers.
+
+![](images/image10.png)
+
 3. As a user I want to be able to choose an answer from four options.
+
+The program display a question. Below there are four possible answers a, b, c or d, from which you should choose the correct one.
+Correct answer display feedback: Correct answer, Well done. Negative answer, display feedback Wrong answer.
+
+![](images/image11.png)
+
 4. As a user I want to be able start the game again when finished.
+
+At the end of the game user are asked do you want to play again? After typing the word YES in capital letters, the game starts again.
+
+![](images/image12.png)
+
 5. As a user I want to be able to compare wrong and correct answers.
+
+After answering the last question, the game displays a whole list of correct answers. 
+
+![](images/image13.png)
+
+The complete user answers list is displayed below.
+
+![](images/image14.png)
+
 6. As a user I want to be able to see the percentage of my correct answers.
-7. As a user I want to be informed when I pressed the wrong letter.
+
+The game displays the percentage of correct answers. As users expect it to be.
+
+![](images/image15.png)
+
+7. As a user I want to be informed when I pressed the wrong letter when answer the question.
+
+By pressing a random letter other than the four that can be pressed. Or after pressing enter and leaving the answer blank. The program asks you to press the correct letter again from a, b, c or d.
+
+![](images/image16.png)
+
 8. As a user, I want to receive feedback that my choice was correct or incorrect.
+
+When user answer a question, the feedback is displayed. Informing the user about the correct or wrong answer.
+
+![](images/image17.png)
+
 9. As a site owner, I want data entry to be validated, to guide the user on how to correctly type the input.
+
+When the program asks for a name.
+
+* If it is entered blank, an error message is displayed: Please Try again, you did not enter your name.
+* If it is entered number, an errr message is displayed: Please Try again, you cannot type numbers.
+* After entering the correct letter name, the program proceeds to the next question.
+
+When the program asks for a age.
+
+* If it is entered negative number, an error message is displayed: Error, age cannot be negative number.
+* If it is entered blank or letter, an error message is displayed: Sorry, I dont understand your answer.
+
+![](images/image7.png)
+
+When the program ask to choose the answer a, b, c, or d. After entering a number or diffrent letters, it asks again until you select the correct letter from four to choose from a, b, c, d. Then a information message is displayed whether the answer is correct or incorrect.
+
+![](images/image8.png)
+
+Works as expected all error message are displayed.
+
 10. As a site owner, I want to thank and congratulate for taking the quiz at the end of the game.
+
+At the end of the game, there is a summary message saying thank you for participating in the quiz.
+
+![](images/image18.png)
+
 11. As a site owner, I want to navigate and provide feedback to the user.
 
-
+All the above user stories show user navigation after entering wrong data. The user always receives a return message directing him to enter the correct data.
 
 #### Validator Testing
 
